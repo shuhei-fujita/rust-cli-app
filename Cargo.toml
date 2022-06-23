@@ -5,4 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+# ここに.rsファイルで使用するライブラリを記述
 [dependencies]
+clap = { version = "3.2.6", features = ["derive"] }
